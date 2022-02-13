@@ -1,14 +1,24 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisviniciuslv/api-site.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/luisviniciuslv/api-site/issues"
+  },
+  "homepage": "https://github.com/luisviniciuslv/api-site#readme",
+  "description": ""
 }
