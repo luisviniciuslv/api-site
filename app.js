@@ -26,7 +26,7 @@ const animes = [
     {'name': "The Faraway Paladin", eps:24, "end": 'assistindo'}
   ]
 app.get('/animes', (req, res) => {
-    res.json(animes)
+    res.send(animes)
 });
 
 
