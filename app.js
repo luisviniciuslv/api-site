@@ -20,15 +20,18 @@ const animes = [
     {'name': "Shingeki no kyojin", 'eps':"80 (até agora)", 'end': 'sim'},
     {'name': "Genjitsushugi Yuusha", 'eps':"13 (segunda temp em andamento)", 'end': 'sim'},
     {'name': "Seirei Gensouki", 'eps':"12", 'end': 'sim'},
-    {'name': "Dragon Ball Super", eps:"131", "end": 'não'},
-    {'name': "Ano hanna", eps:"11", "end": 'não'},
-    {'name': "One piece", eps:"981", "end": 'daqui 5 anos eu termino'},
-    {'name': "The Faraway Paladin", eps:24, "end": 'assistindo'}
+    {'name': "Dragon Ball Super", 'eps':"131", "end": 'não'},
+    {'name': "Ano hanna", 'eps':"11", "end": 'não'},
+    {'name': "One piece", 'eps':"981", "end": 'daqui 5 anos eu termino'},
+    {'name': "The Faraway Paladin", 'eps':24, "end": 'assistindo'},
+    {'name': "teste", 'eps': 'testando', "end": 'testando'}
   ]
+
+app.use(cors());
+
 app.get('/animes', (req, res) => {
     res.send(animes)
 });
-
 
 app.listen(PORT, () => {
     console.log('escutando na porta '+PORT)
