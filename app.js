@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-
+var cors = require('cors')
+app.use(cors())
 const PORT = process.env.PORT || 8877;
 const animes = [
     {'name': "Naruto classico", 'eps': 220, 'end': 'sim'},
@@ -30,7 +31,7 @@ const animes = [
 app.use(cors());
 
 app.get('/animes', (req, res) => {
-    res.send(animes)
+    res.json(animes)
 });
 
 app.listen(PORT, () => {
