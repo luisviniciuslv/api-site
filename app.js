@@ -73,6 +73,7 @@ const icons =  [
     // {'link':'', 'tag':''},
   ]
 
+
 app.use(cors());
 
 app.get('/animes', (req, res) => {
@@ -80,7 +81,7 @@ app.get('/animes', (req, res) => {
 });
 
 app.get('/icons', (req, res) => {
-    res.json(icons)
+    res.json(icons.reverse())
 });
 
 app.listen(PORT, () => {
