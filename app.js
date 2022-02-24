@@ -18,14 +18,13 @@ const animes = [
     {'name': "Demon Slayer", 'eps': 26, 'end': 'sim'},
     {'name': "The Promissed Never Lands", 'eps': 12, 'end': 'sim'},
     {'name': "Kakegurui", 'eps': 24, 'end': 'sim'},
-    {'name': "Shingeki no kyojin", 'eps':"80 (até agora)", 'end': 'sim'},
+    {'name': "Shingeki no kyojin", 'eps':"80 (até agora)", 'end': 'assistindo'},
     {'name': "Genjitsushugi Yuusha", 'eps':"13 (segunda temp em andamento)", 'end': 'sim'},
     {'name': "Seirei Gensouki", 'eps':"12", 'end': 'sim'},
     {'name': "Dragon Ball Super", 'eps':"131", "end": 'não'},
     {'name': "Ano hanna", 'eps':"11", "end": 'não'},
     {'name': "One piece", 'eps':"981", "end": 'daqui 5 anos eu termino'},
-    {'name': "The Faraway Paladin", 'eps':24, "end": 'assistindo'},
-    {'name': "teste", 'eps': 'testando', "end": 'testando'}
+    {'name': "The Faraway Paladin", 'eps':24, "end": 'sim'},
   ]
 
 app.use(cors());
