@@ -61,7 +61,7 @@ const icons =  [
     {'link':'https://wallpapercave.com/uwp/uwp438389.jpeg', 'tag':'Cute'},
     {'link':'https://wallpapercave.com/uwp/uwp438386.png', 'tag':'Cute'},
     {'link':'https://wallpapercave.com/uwp/uwp438385.jpeg', 'tag':['Cute']},
-    // {'link':'', 'tag':''},
+    {'link':'https://wallpapercave.com/wp/wp8756073.jpg', 'tag':'Cute'},
     // {'link':'', 'tag':''},
     // {'link':'', 'tag':''},
     // {'link':'', 'tag':''},
