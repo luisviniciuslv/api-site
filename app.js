@@ -73,17 +73,24 @@ const icons =  [
     // {'link':'', 'tag':''},
   ]
 
-
 app.use(cors());
 
+function update(response){
+  icons.append(response)
+}
+
 app.get('/animes', (req, res) => {
-    res.json(animes)
+  res.json(animes)
 });
 
 app.get('/icons', (req, res) => {
-    res.json(icons.reverse())
+  res.json(icons.reverse())
 });
 
+app.post('/update', (req, res) => {
+  console.log(req,'+', res)
+})
+
 app.listen(PORT, () => {
-    console.log('escutando na porta '+PORT)
+  console.log('escutando na porta '+PORT)
 })
