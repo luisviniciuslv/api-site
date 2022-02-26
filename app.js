@@ -75,21 +75,13 @@ const icons =  [
 
 app.use(cors());
 
-function update(response){
-  icons.append(response)
-}
-
 app.get('/animes', (req, res) => {
   res.json(animes)
 });
 
 app.get('/icons', (req, res) => {
-  res.json(icons.reverse())
+  res.json(icons)
 });
-
-app.post('/update', (req, res) => {
-  console.log(req,'+', res)
-})
 
 app.listen(PORT, () => {
   console.log('escutando na porta '+PORT)
