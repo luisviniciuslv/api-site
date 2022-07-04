@@ -67,10 +67,15 @@ const icons =  [
     {'link':'https://cdn.discordapp.com/attachments/916375412949528618/946933980362596352/272072134_1035374223710236_1479227990707558111_n.jpg', 'tag':['pixelart', 'eren']},
     {'link':'https://cdn.discordapp.com/attachments/916375412949528618/946934474275450890/273914289_660756912013833_7417960273331891278_n.jpg', 'tag':['tokyorevengers']},
     {'link':'https://cdn.discordapp.com/attachments/916375412949528618/946934712851656785/274744684_672509957126876_46176322496215586_n.jpg', 'tag':['jujutsu', 'jujutsukaisen']},
-    // {'link':'', 'tag':''},
-    // {'link':'', 'tag':''},
-    // {'link':'', 'tag':''},
-    // {'link':'', 'tag':''},
+    {'link':'https://cdn.discordapp.com/attachments/916375412949528618/993365271983169596/290825570_1478427659276277_5902589921801958825_n.jpg', 'tag':['cute', 'red']},
+    {'link':'https://cdn.discordapp.com/attachments/916375412949528618/993365487666876436/288963089_455665296373156_2180169737212713730_n.jpg', 'tag':['red']},
+    {'link':'https://media.discordapp.net/attachments/916375412949528618/993365813111312446/291324792_550033213455969_2816135487337286082_n.jpg?width=468&height=468', 'tag':['naruto', 'madara']},
+    {'link':'https://cdn.discordapp.com/attachments/916375412949528618/993366030665646130/289929715_1215316965887142_2676253380144438859_n.jpg', 'tag':['cute', 'pink']},
+    {'link':'https://cdn.discordapp.com/attachments/916375412949528618/993366161699905536/290234322_441620864160734_1269053108287033016_n.jpg', 'tag':['']},
+    {'link':'https://cdn.discordapp.com/attachments/916375412949528618/993366427903995914/290695107_1187217672092199_9178611429756200723_n.jpg', 'tag':['cute', 'pink']},
+    {'link':'https://cdn.discordapp.com/attachments/916375412949528618/993366605931229295/290591607_746236433163238_5999931277788552540_n.jpg', 'tag':['cute', 'pink']},
+
+
   ]
 
 app.use(cors());
